@@ -54,3 +54,14 @@ img {
 a:hover {
     color: azure;
 }
+form {
+    background: white;
+    border: solid gray 6px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
