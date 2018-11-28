@@ -58,10 +58,15 @@ form {
     background: white;
     border: solid gray 6px;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+    text-align: left;
     color: black;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 20px;
+    justify-content: center;
+}
+main form div label {
+    margin-right: 20px;
+}
+.radio-button {
+    margin-right: 20px;
 }
